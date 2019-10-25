@@ -24,7 +24,7 @@ cd WikiTextCorpusDownloader
 ```
 Run `main.py` with language flag
 
-```python
+```
  python3 main.py --language=bn
 ```
 
