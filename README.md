@@ -4,7 +4,7 @@
 git clone https://github.com/Rajan-sust/WikiTextCorpusDownloader
 ```
 
-# Installation
+# Requirements
 * Python 3
 * Gensim
 ```python
@@ -14,6 +14,7 @@ pip install gensim
 ```python
 pip install tensorflow==2.0.0
 ```
+
 
 # Run
 
