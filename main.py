@@ -43,7 +43,7 @@ def tokenizer_func(text: str, token_min_len: int, token_max_len: int, lower: boo
 
 def store(corpus, lang):
     base_path = os.getcwd()
-    store_path = os.path.join(base_path + '{}_corpus'.format(lang))
+    store_path = os.path.join(base_path, '{}_corpus'.format(lang))
     if not os.path.exists(store_path):
         os.mkdir(store_path)
     file_idx=1
