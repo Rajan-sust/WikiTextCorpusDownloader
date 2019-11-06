@@ -7,22 +7,32 @@ git clone https://github.com/Rajan-sust/WikiTextCorpusDownloader
 # Requirements
 * Python 3
 * Gensim
+* TensorFlow 2.0.0
+
 ```python
-pip install gensim
+pip install gensim tensorflow==2.0.0
 ```
-* TensorFlow
+# Installation with virtual environment
+If virtual environment is not installed, you can use this command.
+
 ```python
-pip install tensorflow==2.0.0
+pip install virtualenv
 ```
-
-
-# Run
-
-Change directory to cloned directory
+Change directory in cloned folder.
 
 ```bash
 cd WikiTextCorpusDownloader
 ```
+Create virtual environment and activate in `WikiTextCorpusDownloader`.
+
+```python
+virtualenv --python python3 venv
+source venv/bin/activate
+pip install gensim tensorflow==2.0.0
+```
+
+# Run
+
 Run `main.py` with language flag
 
 ```
@@ -30,6 +40,17 @@ Run `main.py` with language flag
 ```
 
 For conveninece I've set the language flag `bn`. You can choose your language code from the following table.
+
+# Output
+
+There will create a folder named `language_corpus` and all the `txt` file will be stored in `language_corpus`.
+
+```
+WikiTextCorpusDownloader/
+├── bn_corpus
+├── main.py
+└── README.md
+```
 
 # Language Code
 
