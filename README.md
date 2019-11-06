@@ -25,7 +25,7 @@ cd WikiTextCorpusDownloader
 ```
 Create virtual environment and activate in `WikiTextCorpusDownloader`.
 
-```python
+```
 virtualenv --python python3 venv
 source venv/bin/activate
 pip install gensim tensorflow==2.0.0
